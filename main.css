@@ -1,3 +1,58 @@
 body {
     background-color: darksalmon;
 }
+form{
+    border-radius: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 75px;
+    height: 450px;
+    width: 500px;
+    background-color: darkslateblue;
+}
+.bigInput{
+    border-radius: 5%;
+    position: relative;
+    top: 35px;
+    left: 42px;
+    height: 35px;
+    width: 400px;
+    margin: 5px;
+}
+.smallInput{
+    position: relative;
+    top: 35px;
+    left: 43px;
+    border-radius: 5%;
+    height: 35px;
+    width: 190px;  
+    margin: 4px;
+}
+.button{
+    border-radius: 5%;
+    position: relative;
+    top: 60px;
+    left: 47px;
+    margin-bottom: 10px;
+    height: 50px;
+    width: 410px;
+}
+h1{
+    position: relative;
+    left: 80px;
+    top: 15px;
+}
+h2{
+    position: relative;
+    width: 390px;
+    left: 50px;
+    top: 15px;
+    font-size: 14px;
+}
+h3{
+    position: relative;
+    width: 390px;
+    left: 50px;
+    font-size: 10px;
+    bottom: -80px;
+}
