@@ -8,7 +8,7 @@ form{
     margin-top: 75px;
     height: 450px;
     width: 500px;
-    background-color: darkslateblue;
+    background-color: rgb(249, 255, 254);
 }
 .bigInput{
     border-radius: 5%;
@@ -17,7 +17,10 @@ form{
     left: 42px;
     height: 35px;
     width: 400px;
+    padding-left: 10px;
     margin: 5px;
+    background-color: ivory;
+    border-style: unset;
 }
 .smallInput{
     position: relative;
@@ -25,8 +28,12 @@ form{
     left: 43px;
     border-radius: 5%;
     height: 35px;
-    width: 190px;  
+    width: 184px; 
+    padding-left: 10px; 
     margin: 4px;
+    background-color: ivory;
+    border-style: dotted;
+    
 }
 .button{
     border-radius: 5%;
@@ -36,23 +43,45 @@ form{
     margin-bottom: 10px;
     height: 50px;
     width: 410px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: inherit;
+    font-size: 22px;
+    border-style: hidden;
+    background-color: rgb(207, 207, 137);
 }
 h1{
     position: relative;
     left: 80px;
     top: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+    font-size: 24px;
 }
 h2{
     position: relative;
     width: 390px;
-    left: 50px;
+    left: 52px;
     top: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 14px;
 }
 h3{
     position: relative;
     width: 390px;
-    left: 50px;
+    left: 60px;
     font-size: 10px;
     bottom: -80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: rgb(90, 63, 63);
+}
+a:hover{
+    transition: 0.5s;
+    font-size: 11px;
+    color: gold;
+}
+a:focus{
+    color: red;
 }
